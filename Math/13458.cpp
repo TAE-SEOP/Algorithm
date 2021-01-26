@@ -19,11 +19,11 @@ int main() {
 			count += quo;
 			a[j] -= quo * c;
 			if (a[j] > 0) count++;
+            int a;
 		}
 	}
 
 	printf("%lld", count);
-
 	return 0;
 
 }
