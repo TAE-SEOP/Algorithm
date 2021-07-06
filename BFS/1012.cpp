@@ -9,10 +9,14 @@ using namespace std;
 int t,x,y;
 int m, n, k;
 int result = 0;
+
 int field[60][60] = { 0, };
+
 int dx[4] = { 0,0,1,-1 };
 int dy[4] = { 1,-1,0,0 };
+
 bool visit[60][60];
+
 queue <pair<int, int>> coordi;
 
 void bfs(int a, int b) {
